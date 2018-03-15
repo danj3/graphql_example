@@ -1,8 +1,8 @@
-defmodule GraphqlExampleTest do
+defmodule GExampleTest do
   use ExUnit.Case
-  doctest GraphqlExample
+  doctest GExample
 
   test "greets the world" do
-    assert GraphqlExample.hello() == :world
+    assert GExample.hello() == :world
   end
 end

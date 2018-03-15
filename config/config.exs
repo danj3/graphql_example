@@ -31,6 +31,6 @@ use Mix.Config
 
 config :graphql_example, router_opts: [ port: 4000 ]
 
-config :graphql_example, GraphqlExample.TokenCoder,
+config :graphql_example, GExample.Auth.Token,
   issuer: "graphql_example",
   secret_key: "JJqlWdQKtS9WyVw8d+wDBDDQy+a6hcjDWG4kgMeH+2xlUgNcbW9TnYBy+Bk4StVD"

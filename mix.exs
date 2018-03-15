@@ -1,4 +1,4 @@
-defmodule GraphqlExample.MixProject do
+defmodule GExample.MixProject do
   use Mix.Project
 
   def project do
@@ -14,7 +14,7 @@ defmodule GraphqlExample.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      mod: { GraphqlExample, [] },
+      mod: { GExample, [] },
       extra_applications: [:logger]
     ]
   end
