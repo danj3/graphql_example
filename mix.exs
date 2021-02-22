@@ -23,8 +23,9 @@ defmodule GExample.MixProject do
   defp deps do
     [
       {:plug, "~> 1.5"},
-      {:absinthe_plug, "~> 1.4"},
-      {:absinthe, "~> 1.4"},
+      {:absinthe_plug, "~> 1.5"},
+      {:plug_cowboy, "~> 2.0"},
+      {:absinthe, "~> 1.6"},
       {:poison, "~> 3.1"},
       {:httpoison, "~> 1.0"},
       {:cowboy, "~> 2.2"},

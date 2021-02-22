@@ -47,6 +47,7 @@ defmodule GExample do
 
   plug :ping
 
+
   plug UnauthPlug
 
   # Below here everything requires authentication
